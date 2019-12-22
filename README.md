@@ -3,8 +3,9 @@ Union copier:
 
 [![PyPI version fury.io](https://badge.fury.io/py/ucopy.svg)](https://pypi.python.org/pypi/ucopy/)
 
-Copy files from one or more directories to target directory with union mode;
-if file with same name present in destination directory than file will be renamed with unique suffix
+Default copy behavior offer to skip or replace files which names already existed in the target directory
+This script allowed to copy files from one or more directories at once to target directory with union mode;
+if a file with same name present in the destination directory, then the file will be renamed with a unique suffix
 
 Note:
    - symlinks are ignored
@@ -37,7 +38,7 @@ Example 4: copy all files without restriction
 
 Example 5: copy from multiple source directories matched by glob pattern
 
-    `ucopy /src/path/*/some/*/ /dest/path/`
+   `ucopy /src/path/*/some/*/ /dest/path/`
 
 *Note: You can specify file extensions with or without dots*
 
