@@ -1,6 +1,8 @@
 Union copier:
 =============
 
+[![PyPI version fury.io](https://badge.fury.io/py/ucopy.svg)](https://pypi.python.org/pypi/ucopy/)
+
 Copy files from one or more directories to target directory with union mode;
 if file with same name present in destination directory than file will be renamed with unique suffix
 
@@ -10,7 +12,7 @@ Note:
 Installation
 ------------
 
-`pip install --user ucopy`
+`python3 -m pip install --user ucopy`
 
 Usage
 -----
